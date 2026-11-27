@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>water_monitoring</name>
+  <version>0.0.1</version>
+  <description>Nodos ROS 2 para una estacion autonoma de monitoreo de calidad del agua.</description>
+
+  <maintainer email="andry@todo.todo">Andry Ortega</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>water_interfaces</exec_depend>
+
+  <test_depend>ament_pytest</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

@@ -1,0 +1,10 @@
+float32 target_depth
+float32 sample_volume
+---
+bool success
+float32 collected_volume
+string message
+---
+float32 current_depth
+float32 collection_percentage
+string actuator_status

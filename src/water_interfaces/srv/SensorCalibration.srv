@@ -1,0 +1,6 @@
+string sensor_name
+float32 reference_value
+---
+bool success
+float32 calibration_offset
+string message
